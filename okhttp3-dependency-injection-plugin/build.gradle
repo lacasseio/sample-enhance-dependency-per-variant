@@ -1,0 +1,12 @@
+plugins {
+    id 'java-gradle-plugin'
+}
+
+gradlePlugin {
+    plugins {
+        depInj {
+            id = 'com.example.okhttp3-dependency-injection'
+            implementationClass = 'com.example.OkHttp3DependencyInjectionPlugin'
+        }
+    }
+}

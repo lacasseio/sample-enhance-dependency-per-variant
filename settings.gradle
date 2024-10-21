@@ -1,0 +1,6 @@
+pluginManagement {
+    includeBuild 'okhttp3-dependency-injection-plugin'
+}
+
+rootProject.name = 'sample-enhance-dependency-per-variant'
+include('app')
